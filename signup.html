@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sugar&Spice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <h2 id="logo">Sugar&spice</h2>
+
+        <a href="Signup.html" class="active">Sign Up</a>
+        <a href="FAQ.html">F.A.Q</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="Order.html">Order</a>
+        <a href="products.html">Products</a>
+        <a href="index.html">Home</a> 
+    </div>
+    <br>
+    <div class="mainsu">
+        <form id="signupForm" onsubmit="Form(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="c1">Show</label><input type="checkbox" id="c1" onclick="toggle()">
+            
+    
+            <button type="submit" >Sign-Up</button>
+        </form>
+       
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+
+body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+#logo {
+    float: left;
+    font-weight: bolder;
+}
+
+.nav {
+    background-color: rgb(236, 175, 94);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav a.active {
+    color: white;
+}
+
+#img {
+    z-index: 0;
+    width: 100%;
+    height: 522.6px;
+}
+
+h1 {
+    font-family: 'caladea', serif;
+    font-size: 60px;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    right: 390px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    z-index: 1;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+#ct {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#border {
+    border: 3px solid rgb(236, 175, 94);
+}
+
+p {
+    text-align: center;
+}
+
+
+#email {
+    color: rgb(236, 175, 94);
+}
+
+.img {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.mainsu {
+    border: 3px solid rgb(236, 175, 94);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(236, 175, 94);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spass{
+    float: left;
+}
+#orderForm {
+    margin-top: 20px;
+    border: 3px solid rgb(236, 175, 94);
+    padding: 30px 50px;
+    max-width: 400px;
+    margin: 20px auto;
+      
+}
+#ab{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.borderab{
+    border: 3px solid rgb(236, 175, 94);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#imgab{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 540px;
+    width: 250px;
+    height: 165px;
+
+}
+#fq{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.borderf{
+    border: 3px solid rgb(236, 175, 94);
+    padding: 20px;
+}
+.borderf:hover{
+    transform: scale(1.009);
+}
+.headf{
+    text-align: center;
+    font-weight: bold;
+}
